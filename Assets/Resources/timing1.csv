@@ -1,0 +1,33 @@
+﻿wordInSourceText;showWord;start;end;minutes;seconds;milliseconds;startTS;endTS;
+2°C scenario;2°C Szenario;00:23.03;00:00:28.30;0;23;3;23030;28030;ok
+warming;Erwärmung;00:51.37;00:00:56.370;0;51;37;51370;56370;ok
+Paris agreement;Übereinkommen von Paris;01:11.53;00:01:16.530;1;11;53;71530;76530;ok
+2015;2015;01:12.70;00:01:17.700;1;12;70;72700;77700;Überlappung
+baseline preindustrial levels;vorindustrielles Niveau;01:29.93;00:01:34.930;1;29;93;89930;94930;ok
+1.5°C;1.5°C;01:42.57;00:01:47.570;1;42;57;102570;107570;ok
+1.5°C;1.5°C;02:18.93;00:02:23.930;2;18;93;138930;143930;ok
+1°C;1°C;02:20.17;00:02:25.170;2;20;17;140170;145170;Überlappung
+3°C;3°C;02:23.00;00:02:28.0;2;23;0;143000;148000;Überlappung
+precipitation;Niederschlag;03:07.40 ;00:03:12.400;3;7;40;187400;192400;ok
+precipitation;Niederschlag;03:19.90;00:03:24.900;3;19;90;199900;204900;ok
+extreme weather events;Extremwettereignisse;03:32.13;00:03:37.130;3;32;13;212130;217130;ok
+dry spell;Trockenperiode;03:40.30;00:03:45.300;3;40;30;220300;225300;ok
+drought periods;Dürre;03:45.63;00:03:50.630;3;45;63;225630;230630;ok
+variability;Schwankungsbreite;03:56.13;00:04:01.130;3;56;13;236130;241130;ok
+livestock;Viehzucht;04:12.43;00:04:17.430;4;12;43;252430;257430;ok
+thermal stress;Wärmestress;04:14.27;00:04:19.270;4;14;27;254270;259270;Überlappung
+forage availability;Verfügbarkeit von Futtermitteln;04:16.93;00:04:21.930;4;16;93;256930;261930;Überlappung
+marine resources;Meeresressourcen;04:23.97;00:04:28.970;4;23;97;263970;268970;ok
+hypoxia;Sauerstoffmangel;04:27.27;00:04:32.270;4;27;27;267270;272270;Überlappung
+coral bleaching;Korallenbleiche;04:30.97;00:04:35.970;4;30;97;270970;275970;Überlappung
+coral bleaching;Korallenbleiche;04:38.23;00:04:43.230;4;38;23;278230;283230;ok
+yield losses;Ernteverluste;04:51.07;00:04:56.70;4;51;7;291070;296070;ok
+pests;Pest;04:53.50;00:04:58.500;4;53;50;293500;298500;Überlappung
+social-ecological vulnerability;sozio-ökologische Vulnerabilität;05:01.23;00:05:06.230;5;1;23;301230;306230;ok
+small island development states;kleine Insel-Entwicklungsländer;05:15.37;00:05:20.370;5;15;37;315370;320370;ok
+7.5 million people;7.5 Mio. Menschen;05:19.70;00:05:24.700;5;19;70;319700;324700;Überlappung
+100 year extreme sea level;Jahrhunderthochwasser;05:23.53;00:05:28.530;5;23;53;323530;328530;Überlappung
+water ways;Wasserstrassen;05:44.93;00:05:49.930;5;44;93;344930;349930;ok
+knowledge and technology transfer;Wissens- und Technologietransfer;06:07.97;00:06:12.970;6;7;97;367970;372970;ok
+resource-efficient agriculture;ressourceneffiziente Landwirtschaft;06:16.90;00:06:21.900;6;16;90;376900;381900;ok
+socio-ecological resilience;sozio-ökologische Resilienz;06:19.97;00:06:24.970;6;19;97;379970;384970;Überlappung
