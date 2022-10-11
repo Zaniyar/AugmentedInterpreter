@@ -121,6 +121,10 @@ public class ReadCSV : MonoBehaviour
     {
         // await Task.Delay((int)(23030));
         // Debug.Log("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        if (tokenSource != null)
+        {
+            StopSubtitles();
+        }
         await Task.Delay(1000); // warten lassen
         audioSource.Play();
         await Task.Delay(1000); // warten lassen
@@ -202,6 +206,7 @@ public class ReadCSV : MonoBehaviour
         {
             if (item.Length > 0)
             {
+                Debug.Log(item);
                 var word = item.Trim().Split(";"[0])[1];
                 if (useStartTS) //use the already calculated ms times in the csv
                 {
