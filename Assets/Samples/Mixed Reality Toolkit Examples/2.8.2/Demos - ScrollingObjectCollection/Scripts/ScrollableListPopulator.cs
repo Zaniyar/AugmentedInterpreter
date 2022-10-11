@@ -163,7 +163,8 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             {
                 for (int i = 0; i < numItems; i++)
                 {
-                    MakeItem(dynamicItem);
+                    Debug.Log("Lazy? " + i);
+                    MakeItem(dynamicItem, i);
                 }
                 scrollView.gameObject.SetActive(true);
                 gridObjectCollection.UpdateCollection();
@@ -185,7 +186,8 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             {
                 for (int i = 0; i < instancesPerFrame; i++)
                 {
-                    MakeItem(dynamicItem);
+                    Debug.Log("Update? " + i);
+                    MakeItem(dynamicItem, i);
                 }
                 yield return null;
             }
@@ -198,9 +200,13 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             gridObjectCollection.UpdateCollection();
         }
 
-        private void MakeItem(GameObject item)
+        private void MakeItem(GameObject item, int i)
         {
             GameObject itemInstance = Instantiate(item, gridObjectCollection.transform);
+            var myItemScript = itemInstance.GetComponent<myFilePathHandler>();
+            myItemScript.Index = i;
+            Debug.Log("INDEXXX" + i);
+            myItemScript.getMyCSVpath();
             itemInstance.SetActive(true);
         }
     }

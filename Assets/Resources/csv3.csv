@@ -1,45 +1,72 @@
-﻿wordInSourceText;showWord;start;end;minutes;seconds;seconds;milliseconds;startTS;endTS;;comment
-2°C scenario;Käse;00:00:03.30;00:00:08.30;0;3;6;3;3030;8030;#BEZUG!;endTS=startTs+5000
-2°C scenario;2°C Szenario;00:00:28.30;00:00:33.30;0;28;23;3;28030;33030;ok;endTS=startTs+5000
-warming;Erwärmung;00:00:56.370;00:01:01.370;0;56;51;37;56370;61370;ok;
-Paris agreement;Übereinkommen von Paris;00:01:16.530;00:01:21.530;1;16;11;53;76530;81530;ok;"onu: ""Übereinkommen von Paris 
-        2015"""
-2015;2015;00:01:17.700;00:01:22.700;1;17;12;70;77700;82700;Überlappung;
-baseline preindustrial levels;vorindustrielles Niveau;00:01:34.930;00:01:39.930;1;34;29;93;94930;99930;ok;
-1.5°C;1.5°C;00:01:47.570;00:01:52.570;1;47;42;57;107570;112570;ok;
-1.5°C;1.5°C;00:02:23.930;00:02:28.930;2;23;18;93;143930;148930;ok;"onu ""1.5°C  
-1°C 
-3°C"
-1°C;1°C;00:02:25.170;00:02:30.170;2;25;20;17;145170;150170;Überlappung;
-3°C;3°C;00:02:28.0;00:02:33.0;2;28;23;0;148000;153000;Überlappung;
-precipitation;Niederschlag;00:03:12.400;00:03:17.400;3;12;7;40;192400;197400;ok;
-precipitation;Niederschlag;00:03:24.900;00:03:29.900;3;24;19;90;204900;209900;ok;
-extreme weather events;Extremwettereignisse;00:03:37.130;00:03:42.130;3;37;32;13;217130;222130;ok;
-dry spell;Trockenperiode;00:03:45.300;00:03:50.300;3;45;40;30;225300;230300;ok;
-drought periods;Dürre;00:03:50.630;00:03:55.630;3;50;45;63;230630;235630;ok;
-variability;Schwankungsbreite;00:04:01.130;00:04:06.130;4;1;56;13;241130;246130;ok;
-livestock;Viehzucht;00:04:17.430;00:04:22.430;4;17;12;43;257430;262430;ok;"onu: ""Viezucht 
-Wärmestress 
-Verfügbarkeit von Futtermitteln"""
-thermal stress;Wärmestress;00:04:19.270;00:04:24.270;4;19;14;27;259270;264270;Überlappung;
-forage availability;Verfügbarkeit von Futtermitteln;00:04:21.930;00:04:26.930;4;21;16;93;261930;266930;Überlappung;
-marine resources;Meeresressourcen;00:04:28.970;00:04:33.970;4;28;23;97;268970;273970;ok;"onu: ""Meeresresourcen
-Sauerstoffmangel
-Korallenbleiche"""
-hypoxia;Sauerstoffmangel;00:04:32.270;00:04:37.270;4;32;27;27;272270;277270;Überlappung;
-coral bleaching;Korallenbleiche;00:04:35.970;00:04:40.970;4;35;30;97;275970;280970;Überlappung;
-coral bleaching;Korallenbleiche;00:04:43.230;00:04:48.230;4;43;38;23;283230;288230;ok;
-yield losses;Ernteverluste;00:04:56.70;00:05:01.70;4;56;51;7;296070;301070;ok;"onu: ""Ernteverluste
-Pest"""
-pests;Pest;00:04:58.500;00:05:03.500;4;58;53;50;298500;303500;Überlappung;
-social-ecological vulnerability;sozio-ökologische Vulnerabilität;00:05:06.230;00:05:11.230;5;6;1;23;306230;311230;ok;
-small island development states;kleine Insel-Entwicklungsländer;00:05:20.370;00:05:25.370;5;20;15;37;320370;325370;ok;"onu: ""kleine Insel-Entwicklungsländer
-7.5 Mio. Menschen
-Jahrhunderthochwasser"""
-7.5 million people;7.5 Mio. Menschen;00:05:24.700;00:05:29.700;5;24;19;70;324700;329700;Überlappung;
-100 year extreme sea level;Jahrhunderthochwasser;00:05:28.530;00:05:33.530;5;28;23;53;328530;333530;Überlappung;
-water ways;Wasserstrassen;00:05:49.930;00:05:54.930;5;49;44;93;349930;354930;ok;
-knowledge and technology transfer;Wissens- und Technologietransfer;00:06:12.970;00:06:17.970;6;12;7;97;372970;377970;ok;
-resource-efficient agriculture;ressourceneffiziente Landwirtschaft;00:06:21.900;00:06:26.900;6;21;16;90;381900;386900;ok;"onu: ""ressourceneffiziente Landwirtschaft
-sizio-ökologische Resilienz"""
-socio-ecological resilience;sozio-ökologische Resilienz;00:06:24.970;00:06:29.970;6;24;19;97;384970;389970;Überlappung;
+﻿wordInSourceText;showWord;start;end;minutes;seconds;milliseconds;startTS;endTS;Überlappung;comment
+neurodegenerative disease;neurodegenerative Erkrankungen;00:00:29.100;00:00:34.100;0;29;10;29100;34100;ok;
+thermostats;Thermostaten;00:00:41.970;00:00:46.970;0;41;97;41970;46970;ok;
+photographic image recording;digitale Bildformate;00:00:56.830;00:01:01.830;0;56;83;56830;61830;ok;
+36 exposures;36 Bilder;00:01:02.430;00:01:07.430;1;2;43;62430;67430;ok;
+$15;15 $;00:01:07.470;00:01:12.470;1;7;47;67470;72470;ok;
+32 GB;32 GB;00:01:20.0;00:01:25.0;1;20;0;80000;85000;ok;
+$9;9 $;00:01:23.870;00:01:28.870;1;23;87;83870;88870;Überlappung;
+30'000 photographs;30 000 Fotos;00:01:26.130;00:01:31.130;1;26;13;86130;91130;Überlappung;
+fixed format;Festplattenspeicher;00:01:42.170;00:01:47.170;1;42;17;102170;107170;ok;
+1983;1983;00:01:44.330;00:01:49.330;1;44;33;104330;109330;Überlappung;
+IBM PC 1;IBM PC 1;00:01:47.530;00:01:52.530;1;47;53;107530;112530;Überlappung;
+10 MB;10 MB;00:01:55.830;00:02:00.830;1;55;83;115830;120830;ok;
+$1000;1000 $;00:01:58.430;00:02:03.430;1;58;43;118430;123430;Überlappung;
+1TB;1 TB;00:02:02.330;00:02:07.330;2;2;33;122330;127330;Überlappung;
+$45;45 $;00:02:05.630;00:02:10.630;2;5;63;125630;130630;Überlappung;
+computerized axial tomography;Computeraxialtomographie;00:02:24.730;00:02:29.730;2;24;73;144730;149730;ok;
+CT;CT;00:02:29.600;00:02:34.600;2;29;60;149600;154600;Überlappung;
+CT scanners;Comutertomograph;00:02:32.100;00:02:37.100;2;32;10;152100;157100;Überlappung;
+Hounsfield;Hounsfield;00:02:35.530;00:02:40.530;2;35;53;155530;160530;Überlappung;
+London;London;00:02:39.830;00:02:44.830;2;39;83;159830;164830;Überlappung;
+Electrical and Music Industries;Electrical and Music Industries;00:02:41.70;00:02:46.70;2;41;7;161070;166070;Überlappung;
+Beatles;Beatles;00:02:49.0;00:02:54.0;2;49;0;169000;174000;ok;
+1979;1979;00:02:54.670;00:02:59.670;2;54;67;174670;179670;ok;
+Hounsfield;Hounsfield;00:02:56.100;00:03:01.100;2;56;10;176100;181100;Überlappung;
+Cromack;Cormack;00:02:59.430;00:03:04.430;2;59;43;179430;184430;Überlappung;
+1970;;00:03:10.130;00:03:15.130;3;10;13;190130;195130;ok;
+CT image;CT-Bild;00:03:14.700;00:03:19.700;3;14;70;194700;199700;Überlappung;
+radiographic film;Röntgenfilm;00:03:22.0;00:03:27.0;3;22;0;202000;207000;ok;
+radiology departments;Röntgenabteilung;00:03:33.70;00:03:38.70;3;33;7;213070;218070;ok;
+image storing capacity;Speicherkapazität für Bilder;00:03:36.270;00:03:41.270;3;36;27;216270;221270;Überlappung;
+voxel-based morphometry;Voxel-basierte Morphometrie;00:03:54.730;00:03:59.730;3;54;73;234730;239730;ok;
+data pattern recognition;Mustererkennung;00:04:21.230;00:04:26.230;4;21;23;261230;266230;ok;
+discrete patterns;diskrete Muster;00:04:24.670;00:04:29.670;4;24;67;264670;269670;Überlappung;
+abscesses;Abzess;00:04:31.300;00:04:36.300;4;31;30;271300;276300;ok;
+metastatic carcinoma;metastatisierendes Karzinom;00:04:33.70;00:04:38.70;4;33;7;273070;278070;Überlappung;
+histological slide;Schnittpräparat;00:04:40.400;00:04:45.400;4;40;40;280400;285400;ok;
+abscess;Abzess;00:04:43.630;00:04:48.630;4;43;63;283630;288630;Überlappung;
+metastatic carcinoma;metastatisierendes Karzinom;00:04:44.970;00:04:49.970;4;44;97;284970;289970;Überlappung;
+continuous pathologies;graduelle Pathologien;00:04:57.770;00:05:02.770;4;57;77;297770;302770;ok;
+glioma progression;Progression eines Glioms;00:05:02.70;00:05:07.70;5;2;7;302070;307070;Überlappung;
+histologic appearance;histologisches Erscheinungsbild;00:05:05.30;00:05:10.30;5;5;3;305030;310030;Überlappung;
+histologic atypia;histologische Atypien;00:05:08.870;00:05:13.870;5;8;87;308870;313870;Überlappung;
+neurodegenerative disease;neurodegenerative Erkrankungen;00:05:20.570;00:05:25.570;5;20;57;320570;325570;ok;
+1970;1970;00:06:05.70;00:06:10.70;6;5;7;365070;370070;ok;
+Newcastle;Newcastle;00:06:07.370;00:06:12.370;6;7;37;367370;372370;Überlappung;
+neuritic placques;senile Plaques;00:06:24.200;00:06:29.200;6;24;20;384200;389200;ok;
+1997;1997;00:06:37.270;00:06:42.270;6;37;27;397270;402270;ok;
+Reagan criteria;Reagan Kriterien;00:06:39.670;00:06:44.670;6;39;67;399670;404670;Überlappung;
+placques;Plaques;00:06:49.730;00:06:54.730;6;49;73;409730;414730;ok;
+Kentucky;Kentucky;00:06:07.800;00:06:12.800;6;7;80;367800;372800;ok;
+computer-assisted image analysis;computer-gestützte Bildanalyse;00:07:02.730;00:07:07.730;7;2;73;422730;427730;ok;
+neuropil threads;Neuropilfäden;00:07:08.400;00:07:13.400;7;8;40;428400;433400;ok;
+neuritic placques density;Plaque-Dichte;00:07:24.200;00:07:29.200;7;24;20;444200;449200;ok;
+San Diego;San Diego;00:07:36.70;00:07:41.70;7;36;7;456070;461070;ok;
+immunostain sections;immungefärbte Gewebeschnitte ;00:07:38.370;00:07:43.370;7;38;37;458370;463370;Überlappung;
+neocortex;Neokortex;00:07:42.500;00:07:47.500;7;42;50;462500;467500;Überlappung;
+synaptic density;Synapsendichte;00:07:47.570;00:07:52.570;7;47;57;467570;472570;ok;
+synapse loss;Synapsenatrophie;00:07:56.900;00:08:01.900;7;56;90;476900;481900;ok;
+years 2000's;2000-er;00:08:10.70;00:08:15.70;8;10;7;490070;495070;ok;
+whole slide imaging;Objektträgerdigitalisierung;00:08:11.730;00:08:16.730;8;11;73;491730;496730;Überlappung;
+2 hours;2 Stunden;00:08:28.500;00:08:33.500;8;28;50;508500;513500;ok;
+10 years;10 Jahre;00:08:38.800;00:08:43.800;8;38;80;518800;523800;ok;
+3 miutes;3 Minuten;00:08:40.700;00:08:45.700;8;40;70;520700;525700;Überlappung;
+tumour board;Tumorkonferenz;00:09:28.400;00:09:33.400;9;28;40;568400;573400;ok;
+optical microscope;Lichtmikroskop;00:09:38.870;00:09:43.870;9;38;87;578870;583870;ok;
+computer-assisted image analysis;computergestützte Bildanalyse;00:10:20.230;00:10:25.230;10;20;23;620230;625230;ok;
+neurofibrallary tangles;Neurofibrillen;00:10:55.700;00:11:00.700;10;55;70;655700;660700;ok;
+neuritic placques;Plaque-Dichte;00:10:58.470;00:11:03.470;10;58;47;658470;663470;Überlappung;
+tissue elements;Gewebeteile;00:11:21.30;00:11:26.30;11;21;3;681030;686030;ok;
+non-canoncial lesions;nicht-klassifizierte Läsionen;00:11:24.70;00:11:29.70;11;24;7;684070;689070;Überlappung;
+dytrophic neurites;dystrophische Neurititen;00:11:29.270;00:11:34.270;11;29;27;689270;694270;ok;

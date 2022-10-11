@@ -212,6 +212,7 @@ public class ReadCSV : MonoBehaviour
                 {
                     if (item.Trim().Split(";"[0])[7] != "startTS")
                     {
+                        Debug.Log("WAs was: " + item.Trim().Split(";"[0])[7]);
                         var start_ms = int.Parse(item.Trim().Split(";"[0])[7]);
                         var end_ms = int.Parse(item.Trim().Split(";"[0])[8]);
                         showSubtitleWord(start_ms, word, tokenSource);
